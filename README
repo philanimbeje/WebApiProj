@@ -1,0 +1,27 @@
+Description of Project
+  Project is a simple API server that allows tasks to be assigned to users. Can be used for basic projects that need to record task delegations
+
+Project Built With
+  - c#
+  - .netCore 3.1 API
+  - EntityFrameworkCore InMemory Persistance 5.0.9
+  - Swashbuckle
+  
+List of assumptions
+  - many to many relationship between users and tasks
+  - api should cater for searching users from tasks and tasks from users
+  
+How to run the application
+  - PostMan can be used to access the API
+  - List of API endpoints can be accessed through the swagger documentation site which the project supports
+  
+Reason for design
+  - choose the on memory db for easy persistance without having to use an actual DB to test the API
+  - chose dependancy injection to test out the effective decoupling it provides
+  - chose MVC for cleaner data structure
+  
+What would I add in furture
+  - unit tests
+  
+Project took ~5hours to complete
+  
